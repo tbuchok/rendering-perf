@@ -1,3 +1,5 @@
+require('newrelic');
+
 var http = require('http')
   , fs = require('fs')
   , Templater = require('./lib/templater')
