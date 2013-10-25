@@ -8,6 +8,7 @@ var http = require('http')
 ;
 
 http.createServer(function(req, res) {
+  res.setHeader('content-type', 'text/xml');
   if (/^\/template/.test(req.url))
     return new Templater().pipe(res);
 
