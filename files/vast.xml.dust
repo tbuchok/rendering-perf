@@ -1,0 +1,38 @@
+<VAST version="2.0">
+  <Ad id="p49963364c277554">
+    <InLine>
+      <AdSystem version="1.0">domain</AdSystem>
+      <AdTitle>domain In-stream</AdTitle>
+      <Description>An in-stream on the domain ad system.</Description>
+      <Impression id="domain">{analyticsUrl}/placements/{placementId}?ad_version=PLATFORM&type=IMPRESSION&flight_id={flightId}&creative_id={creativeId}&external_placement_id={externaPlacementId}&anticache={anticache}&e=mc2</Impression>
+      {#impressions}
+      <Impression id="{random}">{.}&anticache={anticache}</Impression>
+      {/impressions}
+      <Impression id="MainVideoStart">{analyticsUrl}/placements/{placemenId}?ad_version=PLATFORM&type=start&flight_id={flightId}&screen=Main+Video&creative_id={creativeId}&external_placement_id={externaPlacementId}&anticache={anticache}&e=mc2</Impression>
+      <Creatives>
+        <Creative sequence="1">
+          <Linear>
+            <Duration>00:00:15</Duration>
+            <TrackingEvents/>
+            <AdParameters/>
+            <MediaFiles>
+              <MediaFile apiFramework="VPAID" bitrate="320" delivery="progressive" height="360" id="277554" maintainAspectRatio="true" scalable="false" type="application/x-shockwave-flash" width="640">{staticsUrl}{mediaFile}?iid={iid}&anticache={anticache}</MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+        <Creative sequence="1">
+          <CompanionAds>
+            <Companion width="300" height="250">
+              <StaticResource creativeType="image/jpeg">{staticsUrl}{companionAd}</StaticResource>
+              <TrackingEvents>
+                <Tracking event="creativeView">{analyticsUrl}/placements/{placementId}?ad_version=PLATFORM&type=start&flight_id={flightId}&screen=BoseInstreamQ42012&creative_id={creativeId}&external_placement_id={externaPlacementId}&anticache={anticache}&e=mc2</Tracking>
+              </TrackingEvents>
+              <CompanionClickThrough>{clickTag}</CompanionClickThrough>
+            </Companion>
+          </CompanionAds>
+        </Creative>
+      </Creatives>
+      <Extensions/>
+    </InLine>
+  </Ad>
+</VAST>
