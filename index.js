@@ -16,10 +16,7 @@ http.createServer(function(req, res) {
   if (/^\/template/.test(req.url))
     return new Templater().pipe(res);
 
-  fs.createReadStream('./files/vast.xml')
-    .pipe(new Replacer)
-    .pipe(res)
-  ;
+  new Replacer().pipe(res);
   
 }).listen(PORT);
 console.log('Listening on %s', PORT);
