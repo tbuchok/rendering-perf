@@ -2,7 +2,7 @@ var http = require('http')
   , fs = require('fs')
   , Templater = require('./lib/templater')
   , Replacer = require('./lib/replacer')
-  , PORT = process.env.PORT || 8000 
+  , PORT = process.env.PORT || 8080 
 ;
 
 http.createServer(function(req, res) {

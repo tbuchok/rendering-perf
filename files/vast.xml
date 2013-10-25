@@ -1,12 +1,12 @@
 <VAST version="2.0">
   <Ad id="p49963364c277554">
     <InLine>
-      <AdSystem version="1.0">Spongecell</AdSystem>
-      <AdTitle>Spongecell In-stream</AdTitle>
-      <Description>An in-stream on the Spongecell ad system.</Description>
-      <Impression id="Spongecell">http://analytics.spongecell.com/placements/49963364?ad_version=PLATFORM&type=IMPRESSION&flight_id=11714&creative_id=277554&external_placement_id=Bose_PreRoll&anticache=SPONGECELL_CACHE_BUSTER&e=mc2</Impression>
+      <AdSystem version="1.0">domain</AdSystem>
+      <AdTitle>domain In-stream</AdTitle>
+      <Description>An in-stream on the domain ad system.</Description>
+      <Impression id="domain">http://analytics.domain.com/placements/49963364?ad_version=PLATFORM&type=IMPRESSION&flight_id=11714&creative_id=277554&external_placement_id=Bose_PreRoll&anticache=domain_CACHE_BUSTER&e=mc2</Impression>
       <Impression id="ImpressionPixel">http://ad.doubleclick.net/ad/N5305.IDGTechNetwork/B7092780.10;sz=1x1;ord=[timestamp]?</Impression>
-      <Impression id="MainVideoStart">http://analytics.spongecell.com/placements/49963364?ad_version=PLATFORM&type=start&flight_id=11714&screen=Main+Video&creative_id=277554&external_placement_id=Bose_PreRoll&anticache=SPONGECELL_CACHE_BUSTER&e=mc2</Impression>
+      <Impression id="MainVideoStart">http://analytics.domain.com/placements/49963364?ad_version=PLATFORM&type=start&flight_id=11714&screen=Main+Video&creative_id=277554&external_placement_id=Bose_PreRoll&anticache=domain_CACHE_BUSTER&e=mc2</Impression>
       <Creatives>
         <Creative sequence="1">
           <Linear>
@@ -14,18 +14,18 @@
             <TrackingEvents/>
             <AdParameters/>
             <MediaFiles>
-              <MediaFile apiFramework="VPAID" bitrate="320" delivery="progressive" height="360" id="277554" maintainAspectRatio="true" scalable="false" type="application/x-shockwave-flash" width="640">http://cdn.statics.live.spongecell.com/bose/v4t/bin/InStreamGrid.swf?trackingDisabled=&cdnDisabled=&Creative[source]=http%3A%2F%2Fcdn.statics.live.spongecell.com%2Fbose%2Fv4t%2Fassets%2FVideo.flv&platformPlacementId=49963364&creativeId=277554&widgetId=277554&flightId=11714&hostBaseUrl=spongecell.com&staticsBaseUrl=http%3A%2F%2Fcdn.statics.live.spongecell.com%2Fbose%2Fv4t&externalPlacementId=Bose_PreRoll&campaignId=5539&clickTag=http%3A%2F%2Fad.doubleclick.net%2Fclk%3B264693271%3B89945151%3Bv&clickTag1=http%3A%2F%2Fad.doubleclick.net%2Fclk%3B264693271%3B89945309%3Ba&HeatMap[track]=true&anticache=SPONGECELL_CACHE_BUSTER</MediaFile>
+              <MediaFile apiFramework="VPAID" bitrate="320" delivery="progressive" height="360" id="277554" maintainAspectRatio="true" scalable="false" type="application/x-shockwave-flash" width="640">http://cdn.statics.live.domain.com/bose/v4t/bin/InStreamGrid.swf?trackingDisabled=&cdnDisabled=&Creative[source]=http%3A%2F%2Fcdn.statics.live.domain.com%2Fbose%2Fv4t%2Fassets%2FVideo.flv&platformPlacementId=49963364&creativeId=277554&widgetId=277554&flightId=11714&hostBaseUrl=domain.com&staticsBaseUrl=http%3A%2F%2Fcdn.statics.live.domain.com%2Fbose%2Fv4t&externalPlacementId=Bose_PreRoll&campaignId=5539&clickTag=http%3A%2F%2Fad.doubleclick.net%2Fclk%3B264693271%3B89945151%3Bv&clickTag1=http%3A%2F%2Fad.doubleclick.net%2Fclk%3B264693271%3B89945309%3Ba&HeatMap[track]=true&anticache=domain_CACHE_BUSTER</MediaFile>
             </MediaFiles>
           </Linear>
         </Creative>
         <Creative sequence="1">
           <CompanionAds>
             <Companion width="300" height="250">
-              <StaticResource creativeType="image/jpeg">http://cdn.statics.live.spongecell.com/bose/v4t/assets/Q3FY13_SL2_Launch_Static_300x250.jpg</StaticResource>
+              <StaticResource creativeType="image/jpeg">http://cdn.statics.live.domain.com/bose/v4t/assets/Q3FY13_SL2_Launch_Static_300x250.jpg</StaticResource>
               <TrackingEvents>
-                <Tracking event="creativeView">http://analytics.spongecell.com/placements/49963364?ad_version=PLATFORM&type=start&flight_id=11714&screen=BoseInstreamQ42012&creative_id=277554&external_placement_id=Bose_PreRoll&anticache=SPONGECELL_CACHE_BUSTER&e=mc2</Tracking>
+                <Tracking event="creativeView">http://analytics.domain.com/placements/49963364?ad_version=PLATFORM&type=start&flight_id=11714&screen=BoseInstreamQ42012&creative_id=277554&external_placement_id=Bose_PreRoll&anticache=domain_CACHE_BUSTER&e=mc2</Tracking>
               </TrackingEvents>
-              <CompanionClickThrough>http://spongecell.com/api/ad_tags/49963364/clickthrough?creative_id=277554&noflash=true&redirect=http%3A%2F%2Fad.doubleclick.net%2Fclk%3B264693271%3B89945309%3Ba&action_type=interaction&description=Clicked+Companion+Ad&screen=BoseInstreamQ42012&external_placement_id=Bose_PreRoll&external_site_id=[LR_URL]&click_tag=SPONGECELL_CLICK_TAG</CompanionClickThrough>
+              <CompanionClickThrough>http://domain.com/api/ad_tags/49963364/clickthrough?creative_id=277554&noflash=true&redirect=http%3A%2F%2Fad.doubleclick.net%2Fclk%3B264693271%3B89945309%3Ba&action_type=interaction&description=Clicked+Companion+Ad&screen=BoseInstreamQ42012&external_placement_id=Bose_PreRoll&external_site_id=[LR_URL]&click_tag=domain_CLICK_TAG</CompanionClickThrough>
             </Companion>
           </CompanionAds>
         </Creative>
