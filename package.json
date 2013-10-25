@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node_modules/forever/bin/forever stopall; node_modules/forever/bin/forever start index.js",
+    "stop": "node_modules/forever/bin/forever stopall",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tom Buchok <tom@buchok.com> (http://buchok.com/)",
   "license": "BSD",
   "dependencies": {
     "dustjs-linkedin": "~2.0.3",
-    "newrelic": "~1.0.0"
+    "newrelic": "~1.0.0",
+    "forever": "~0.10.9"
   }
 }
