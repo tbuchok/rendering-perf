@@ -8,6 +8,10 @@ var http = require('http')
 ;
 
 http.createServer(function(req, res) {
+
+  if (/^\/loaderio-467f2a1d42287faa43fbc4853e9a3965/.test(req.url))
+    return res.end('loaderio-467f2a1d42287faa43fbc4853e9a3965');
+
   res.setHeader('content-type', 'text/xml');
   if (/^\/template/.test(req.url))
     return new Templater().pipe(res);
